@@ -1,0 +1,12 @@
+Time of the brute force attack:
+
+02/21/2020 3:48:37.000 PM
+
+Baseline of normal activity:
+
+10 bad logons per hour
+
+Threshold for brute force alert:
+
+50+ logons per hour
+

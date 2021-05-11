@@ -1,0 +1,31 @@
+PART 1 Windows Server Attack
+
+Question 1:
+
+Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
+
+    - Mitigations can include whitelisting IP addresses
+    
+Question 2:
+
+VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
+What sort of mitigation could you use to protect against this?
+
+    - A mitigation for this could include monitoring access controls so accounts do not have the ability to send "Bad Logins" to every user. Possibly create groups of users if able.
+    
+PART 2 Apache Web Server Attack
+
+Question 1:
+
+
+
+Question 2:
+
+VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
+
+What other rules can you create to protect VSI from attacks against your webserver?
+Conceive of two more rules in "plain english".
+
+    - Whitelist all IPs within our network
+    - Check fields for location, and blacklist any IP coming from that location
+
